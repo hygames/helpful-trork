@@ -26,7 +26,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>co.hygames.helpfultrork.Butler</mainClass>
+                            <mainClass>co.hygames.helpfultrork.Trork</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
