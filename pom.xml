@@ -15,7 +15,7 @@
 
     <build>
         <defaultGoal>clean package</defaultGoal>
-        <finalName>NiklsButler</finalName>
+        <finalName>Trork</finalName>
         <sourceDirectory>src/main/java</sourceDirectory>
         <directory>target</directory>
         <plugins>
@@ -38,7 +38,7 @@
                 <configuration>
                     <artifactSet>
                         <includes>
-                            <include>com.discord4j:*</include>
+                            <include>*:*</include>
                         </includes>
                     </artifactSet>
                 </configuration>
@@ -59,6 +59,11 @@
             <groupId>com.discord4j</groupId>
             <artifactId>discord4j-core</artifactId>
             <version>3.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
         </dependency>
     </dependencies>
 
