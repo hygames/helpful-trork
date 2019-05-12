@@ -1,5 +1,5 @@
 package co.hygames.helpfultrork;
-
+//Start Trigger
 import discord4j.core.DiscordClient;
 import discord4j.core.event.domain.lifecycle.ReadyEvent;
 import discord4j.core.object.entity.User;
@@ -13,5 +13,6 @@ public class ReadyListener {
                     System.out.println(String.format("Logged in as %s#%s", self.getUsername(), self.getDiscriminator()));
                     trork.loggedIn();
                 });
+        setrole;
     }
 }
