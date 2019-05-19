@@ -10,9 +10,8 @@ public class ReadyListener {
         client.getEventDispatcher().on(ReadyEvent.class)
                 .subscribe(event -> {
                     User self = event.getSelf();
-                    System.out.println(String.format("Logged in as %s#%s", self.getUsername(), self.getDiscriminator()));
+                    System.out.println(String.format("I'm %s#%s", self.getUsername(), self.getDiscriminator()));
                     trork.loggedIn();
                 });
-        setrole;
     }
 }
