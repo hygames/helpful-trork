@@ -19,6 +19,7 @@ public class Trork {
         DiscordClient client = new DiscordClientBuilder(token).build();
         new ReadyListener(instance, client);
         new Ping(client);
+        new RoleAssignment(instance, client);
         client.login().block();
     }
 
